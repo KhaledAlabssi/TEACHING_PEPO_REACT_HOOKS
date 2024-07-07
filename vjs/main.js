@@ -6,5 +6,5 @@ btn.addEventListener('click', updateC)
 
 function updateC () {
     counter = counter + 1
-    cElement.innerHTML = counter;
+    cElement.textContent = counter;
 }
