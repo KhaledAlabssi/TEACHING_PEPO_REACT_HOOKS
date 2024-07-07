@@ -3,21 +3,18 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App dark">
-      <header>
-        <h1>We are the champions!</h1>
-      </header>
-      <main>
-        <h2>
-          React is Fun
-        </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt doloribus fuga consequuntur hic, enim porro sed corrupti nisi rem facilis asperiores, cum magni, blanditiis quibusdam iusto laboriosam voluptas debitis vitae.
-        </p>
-      </main>
-      
-    </div>
-  );
+      <div className="App">
+          <header>
+              <h1>React is Fun</h1>
+          </header>
+          <main>
+              <h2>
+                C = 0
+              </h2>
+             <button>Increase C by 1</button>
+          </main>
+      </div>
+  )
 }
 
 export default App;
